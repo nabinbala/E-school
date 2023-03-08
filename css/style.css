@@ -1,0 +1,286 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 1.7em;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+   max-width: 100%;
+    height: auto;
+}
+/* header strat */
+.header{
+    width: 100%;
+    padding: 10px 0px 40px;
+    background: #F0FFF0;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 30px;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #21B573;
+    margin: 0px 0px 0px 20px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success:hover{
+    color: #fff;
+    background: #FBD15B;
+    border: 1px solid #FBD15B;
+}
+/* header end */
+/* banner strat */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+.inner-banner h4{
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #FD511A;
+    font-weight: 400;
+
+}
+.inner-banner h1{
+    font-size: 52px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #000;
+}
+.inner-banner h1 span{
+    color: #21B573;
+}
+.inner-banner p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 600;
+    color: #000;
+}
+.inner-banner .btn-success{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #000;
+    margin: 10px 0px 0px 0px; 
+}
+.inner-banner .btn-success:hover{
+    color: #fff;
+    background: #FBD15B;
+    border: 1px solid #FBD15B; 
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 60px 40px;
+    text-align: center;
+    background: #F8FFFB;
+    border-radius: 10px;
+    transition: 1s;
+}
+.feature .inner-feature img{
+    width: 66px;
+    height: 85px;
+    margin: 0px 0px 25px;
+}
+.feature .inner-feature h4{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #413960;
+    margin: 0px;
+}
+.feature .inner-feature p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+    margin: 0px;
+}
+.feature .inner-feature:hover{
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/* banner end */
+/* online corses strat*/
+.online-courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.online-courses .titel{
+    text-align: center;
+    font-size: 52px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #413960;
+    margin: 0px 0px 40px;
+}
+.online-courses .card{
+    padding: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: 0px;
+    border-radius: 10px;
+}
+    
+.online-courses .card .card-img-top{
+
+}
+.online-courses .card .card-body{
+    padding: 10px 0px;
+}
+.online-courses .card .card-body .card-title{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #413960;
+    margin: 10px 0px 5px;
+}
+.online-courses .card .card-body .card-text{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+}
+.online-courses .card .card-body .btn-success{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background: #21B573;
+    margin: 10px 0px 0px 0px; 
+}
+.online-courses .card .card-body .btn-success:hover{
+    color: #fff;
+    background: #FBD15B;
+    border: 1px solid #FBD15B;
+}
+.online-courses .card .card-body .info{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+    margin: 40px 0px 0px;
+}
+.online-courses .card .card-body .info img{
+    width: 14px;
+}
+.text-right{
+    text-align: right;
+}
+
+.testimonials{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonials .title{
+    text-align: center;
+    font-size: 52px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #413960;
+    margin: 0px 0px 40px;
+}
+.testimonials .client{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonials .client p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #585859;
+    margin: 0px;
+}
+.testimonials-text{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #000;
+    margin: 10px 0px 0px; 
+}
+.footer{
+    width: 100%;
+    padding: 30px 0px;
+    background: #282531;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+
+}
+.widget{
+    width: 100%;
+}
+.widget li{
+    list-style: none;
+    display: block;
+}
+.widget li a{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin: 0px 0px 7px;
+}
+.widget li .active{
+    font-weight: 700;
+}
+.copyright{
+    width: 100%;
+    padding: 60px 0px 20px;
+}
+.copyright p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 0px;
+}
+
+/* online corses end*/
+
+
+    
+
+
+
+
+
+
